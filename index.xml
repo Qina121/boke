@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HUGO</title>
+    <link>http://Qina121.github.io/</link>
+    <description>Recent content on HUGO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2015 Copyright Text</copyright>
+    <lastBuildDate>Wed, 25 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://Qina121.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>下载安装</title>
+      <link>http://Qina121.github.io/post/text/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://Qina121.github.io/post/text/</guid>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
+通过参考文档的介绍及查看网上博客，下载Hugo（ Hugo Releases ）并安装，cmd运行，Hugo version查看版本，建立目录GitHub/Hugo，更改此电脑的path， Hugo有两个子文件 bin和sites，bin里面存放的是下载好的Hugo文件，sites里面存放的是目录结构（有关Hugo的样式，布局）
+http://www.gohugo.org/</description>
+    </item>
+    
+    <item>
+      <title>内容撰写</title>
+      <link>http://Qina121.github.io/post/text2/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://Qina121.github.io/post/text2/</guid>
+      <description>创建一个页面 hugo new post/first.md 在编辑器中打开即可更改 http://www.gohugo.org/post/</description>
+    </item>
+    
+    <item>
+      <title>换肤</title>
+      <link>http://Qina121.github.io/post/text3/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://Qina121.github.io/post/text3/</guid>
+      <description>选择喜欢的样式，下载其文件，将其文件的exampleSite中的config覆盖在原config上面，并在themes中添加样式文件 http://www.gohugo.org/theme/</description>
+    </item>
+    
+    <item>
+      <title>遇到的一些题</title>
+      <link>http://Qina121.github.io/post/text4/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://Qina121.github.io/post/text4/</guid>
+      <description>换主题时在目录中找不到文件？（解决方法） 换主题时在Hugo的文件里多创建了一个文件夹themes,将下载好的主题文件下载到其中，按文档提示操作，一两种主题为例（目前尝试的），一种是细致布局有exampleSites的，需要将其的里面的config文件复制的sites、blog文件中，覆盖原来的对应文件，将其他样式放入到themes里面，而另一种需要覆盖config，同同时执行命令cd themes 然后 hugo server -t material-design -w -D；操作即可
+多个文档应该如何处理？（解决办法） 文档都是放在了blog中的content中，在创建文档的命令hugo new post/text2.md（text2随意命名）</description>
+    </item>
+    
+  </channel>
+</rss>
